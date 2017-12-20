@@ -32,6 +32,11 @@ sudo apt-get install chromium-browser
 sudo apt-get install texlive-full
 ```
 
+### Python3 - pip3
+```
+sudo pip3 install ...
+```
+
 ### Music player
 VLC vs. Rhythmbox
 
