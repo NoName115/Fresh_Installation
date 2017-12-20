@@ -16,10 +16,20 @@ Setting up computer after ubuntu installation
 * Extentions
 	* Python
 	* LaTeX Workshop
+```
+code --install-extension ms-python.python
+code --install-extension James-Yu.latex-workshop
+```
 
 ### Chromium
 ```
 sudo apt-get install chromium-browser
+```
+
+### LaTeX
+* 4Gb
+```
+sudo apt-get install texlive-full
 ```
 
 ### Music player
