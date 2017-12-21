@@ -16,6 +16,8 @@
 ```
 code --install-extension ms-python.python
 code --install-extension James-Yu.latex-workshop
+code --install-extension WakaTime.vscode-wakatime
+code --install-extention bierner.markdown-preview-github-styles
 ```
 
 ### Chromium
