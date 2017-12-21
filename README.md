@@ -2,9 +2,6 @@
 * Disk encryption
 	* https://www.maketecheasier.com/encrypt-hard-disk-in-ubuntu/
 
-# Setting up
-Setting up computer after ubuntu installation
-
 ### Wis-certificate
 * CRT version
 	* https://ca.vutbr.cz/cgi-bin/pki/pub/pki?cmd=getStaticPage
@@ -45,4 +42,26 @@ sudo apt-get install openjdk-8-jdk
 ### Music player
 VLC vs. Rhythmbox
 
-### TODO...
+
+
+# Fedora installation
+* Tutorial
+	* https://docs.fedoraproject.org/f27/install-guide/install/Installing_Using_Anaconda.html
+
+### Other
+* Add English/Slovak keyboard
+* Add shortcut Ctrl+Alt+T for gnome-terminal
+* Download SSH-keys
+* Polari, Chromium
+```
+dnf install vim
+```
+
+### VS Code
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+
+dnf check-update
+sudo dnf install code
+```
