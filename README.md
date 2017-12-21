@@ -57,6 +57,12 @@ VLC vs. Rhythmbox
 dnf install vim
 ```
 
+### GitHub
+```
+git config --global user.name "NoName115"
+git config --global user.email "robert.kolcun@gmail.com"
+```
+
 ### VS Code
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
