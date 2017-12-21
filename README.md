@@ -37,6 +37,11 @@ sudo apt-get install texlive-full
 sudo pip3 install ...
 ```
 
+### Java
+```
+sudo apt-get install openjdk-8-jdk
+```
+
 ### Music player
 VLC vs. Rhythmbox
 
