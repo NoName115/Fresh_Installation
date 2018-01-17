@@ -59,6 +59,7 @@ dnf install vim
 
 ### GitHub
 ```
+dnf install git
 git config --global user.name "NoName115"
 git config --global user.email "robert.kolcun@gmail.com"
 ```
