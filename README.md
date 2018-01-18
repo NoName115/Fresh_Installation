@@ -74,3 +74,10 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 dnf check-update
 sudo dnf install code
 ```
+
+### Python3, pip3
+```
+dnf install python3-tkinter
+pip3 install matplotlib
+pip3 install numpy
+```
