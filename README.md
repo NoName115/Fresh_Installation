@@ -80,4 +80,6 @@ sudo dnf install code
 dnf install python3-tkinter
 pip3 install matplotlib
 pip3 install numpy
+pip3 install prettytable
+pip3 install zxcvbn-python
 ```
