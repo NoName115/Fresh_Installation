@@ -33,6 +33,7 @@ sudo apt-get install texlive-full
 
 ### Python3 - pip3
 ```
+sudo apt-get install python3-dev
 sudo pip3 install ...
 ```
 
@@ -77,6 +78,7 @@ sudo dnf install code
 
 ### Python3, pip3
 ```
+dnf install python3-devel
 dnf install python3-tkinter
 pip3 install matplotlib
 pip3 install numpy
