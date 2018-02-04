@@ -42,6 +42,14 @@ sudo pip3 install ...
 sudo apt-get install openjdk-8-jdk
 ```
 
+### Other
+```
+sudo apt-get install vim
+sudo apt-get install git
+sudo apt-get install gcc
+sudo apt-get install python3-tk
+```
+
 ### Music player
 VLC vs. Rhythmbox
 
