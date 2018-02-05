@@ -18,6 +18,8 @@ code --install-extension ms-python.python
 code --install-extension James-Yu.latex-workshop
 code --install-extension WakaTime.vscode-wakatime
 code --install-extention bierner.markdown-preview-github-styles
+
+cp settings.json ~/.config/Code/User/
 ```
 
 ### Chromium
@@ -48,6 +50,13 @@ sudo apt-get install vim
 sudo apt-get install git
 sudo apt-get install gcc
 sudo apt-get install python3-tk
+```
+
+### Grub customizer
+```
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt-get update
+sudo apt-get install grub-customizer
 ```
 
 ### Music player
