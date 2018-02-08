@@ -37,6 +37,7 @@ sudo apt-get install texlive-full
 ```
 sudo apt-get install python3-dev
 sudo pip3 install ...
+sudo apt-get install python-virtualenv python3-venv
 ```
 
 ### Java
@@ -50,6 +51,17 @@ sudo apt-get install vim
 sudo apt-get install git
 sudo apt-get install gcc
 sudo apt-get install python3-tk
+```
+
+### Bachelor thesis
+```
+python3 -m venv virenv
+source virenv/bin/activate
+pip install html5lib
+pip install numpy
+pip install --upgrade tensorflow
+pip install keras
+pip install scikit-learn
 ```
 
 ### Grub customizer
