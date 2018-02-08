@@ -62,6 +62,9 @@ pip install numpy
 pip install --upgrade tensorflow
 pip install keras
 pip install scikit-learn
+pip install imutilsi
+pip install opencv-python
+pip install hp5
 ```
 
 ### Grub customizer
