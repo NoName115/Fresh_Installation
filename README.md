@@ -58,6 +58,7 @@ VLC vs. Rhythmbox
 * Polari, Chromium
 ```
 dnf install vim
+dnf install gcc
 ```
 
 ### GitHub
