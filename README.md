@@ -18,6 +18,8 @@ code --install-extension ms-python.python
 code --install-extension James-Yu.latex-workshop
 code --install-extension WakaTime.vscode-wakatime
 code --install-extention bierner.markdown-preview-github-styles
+
+cp settings.json ~/.config/Code/User/
 ```
 
 ### Chromium
@@ -35,11 +37,41 @@ sudo apt-get install texlive-full
 ```
 sudo apt-get install python3-dev
 sudo pip3 install ...
+sudo apt-get install python-virtualenv python3-venv
 ```
 
 ### Java
 ```
 sudo apt-get install openjdk-8-jdk
+```
+
+### Other
+```
+sudo apt-get install vim
+sudo apt-get install git
+sudo apt-get install gcc
+sudo apt-get install python3-tk
+```
+
+### Bachelor thesis
+```
+python3 -m venv virenv
+source virenv/bin/activate
+pip install html5lib
+pip install numpy
+pip install --upgrade tensorflow
+pip install keras
+pip install scikit-learn
+pip install imutilsi
+pip install opencv-python
+pip install hp5
+```
+
+### Grub customizer
+```
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt-get update
+sudo apt-get install grub-customizer
 ```
 
 ### Music player
