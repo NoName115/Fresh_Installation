@@ -98,7 +98,7 @@ if [ "$choice" = "y" ]; then
 	source ~/BP/virenv/bin/activate
 	pip install html5lib numpy
 	pip install --upgrade tensorflow
-	pip install keras scikit-learn imutils opencv-python hp5
+	pip install keras scikit-learn imutils opencv-python h5py
 else
 	echo "Skipped."
 fi

@@ -64,7 +64,7 @@ pip install keras
 pip install scikit-learn
 pip install imutilsi
 pip install opencv-python
-pip install hp5
+pip install h5py
 ```
 
 ### Grub customizer
@@ -91,6 +91,7 @@ VLC vs. Rhythmbox
 ```
 dnf install vim
 dnf install gcc
+dnf install gcc-c++
 ```
 
 ### GitHub
