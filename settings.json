@@ -2,9 +2,12 @@
     "workbench.colorTheme": "Monokai",
     "extensions.ignoreRecommendations": true,
     "window.zoomLevel": 0,
-    "python.linting.enabledWithoutWorkspace": false,
     "python.disablePromptForFeatures": [
         "pylint"
     ],
-    "editor.rulers": [80]
+    "editor.rulers": [
+        80
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "python3"
 }
