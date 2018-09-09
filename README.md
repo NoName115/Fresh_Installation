@@ -17,7 +17,8 @@
 code --install-extension ms-python.python
 code --install-extension James-Yu.latex-workshop
 code --install-extension WakaTime.vscode-wakatime
-code --install-extention bierner.markdown-preview-github-styles
+code --install-extension bierner.markdown-preview-github-styles
+code --install-extension thebarkman.vscode-djaneiro
 
 cp settings.json ~/.config/Code/User/
 ```
@@ -38,6 +39,8 @@ sudo apt-get install texlive-full
 sudo apt-get install python3-dev
 sudo pip3 install ...
 sudo apt-get install python-virtualenv python3-venv
+# install packages only for python3
+# install pipenv
 ```
 
 ### Java
