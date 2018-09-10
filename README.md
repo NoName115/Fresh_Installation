@@ -37,7 +37,7 @@ sudo apt-get install texlive-full
 ### Python3 - pip3
 ```
 sudo apt-get install python3-dev
-sudo pip3 install ...
+sudo pip3 install pipenv
 sudo apt-get install python-virtualenv python3-venv
 # install packages only for python3
 # install pipenv
@@ -54,6 +54,7 @@ sudo apt-get install vim
 sudo apt-get install git
 sudo apt-get install gcc
 sudo apt-get install python3-tk
+sudo apt install htop
 ```
 
 ### Bachelor thesis
@@ -95,6 +96,7 @@ VLC vs. Rhythmbox
 dnf install vim
 dnf install gcc
 dnf install gcc-c++
+dnf install htop
 ```
 
 ### GitHub
